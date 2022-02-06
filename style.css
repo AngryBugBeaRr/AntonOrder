@@ -1,0 +1,584 @@
+body {
+    background-color: #0A0A0A;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+header {
+    background-color: #142E32;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+main {
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: black;
+}
+aside {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section {
+    display: flex;
+    flex-direction: row;
+}
+h1 {
+    text-align: center;
+    color: #FFF;
+    font-size: 24pt;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: Verdana;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 70px;
+    align-items: center;
+}
+.titleContainer {
+    margin-left: 25px;
+}
+.centerTitle {
+    text-align: justify;
+    text-align-last: justify;
+    margin: 30px;
+
+}
+.title {
+    font-family: Verdana;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 36px;
+}
+.menu{
+    color: #FFF;
+    margin: 0;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    text-decoration: none;
+    font-size: 14pt;
+}
+
+a :hover{                      /* text-decoration:line-through; Добавляем зачеркивание */
+    color: #5FFAFF;
+    text-shadow:
+            0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px #0fa,
+            0 0 82px #0fa,
+            0 0 92px #0fa,
+            0 0 102px #0fa,
+            0 0 151px #0fa;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+}
+.icon2{
+    width: 80%;
+    height: auto;
+    margin: 0;
+}
+#EyeImg{
+    width: 40%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.EyeImg {
+    width: 80%;
+}
+.line {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 2px;
+    z-index: 3;
+}
+.article {
+    display: flex;
+    justify-content: center;
+}
+.articleText {
+    font-family: Ebrima;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 20px;
+    width: 100%;
+    margin-left: 6%;
+    margin-right: 9%;
+    margin-bottom: 4%;
+}
+.rightShortText {
+    margin-right: 0;
+    display: flex;
+    align-self: center;
+    width: 22%;
+}
+.rightShortText p {
+    text-align: end;
+}
+.rightShortText h1 {
+    width: 100%;
+    text-align: end;
+    margin-bottom: 20px;
+}
+.leftShortText{
+    display: flex;
+    align-self: center;
+    width: 22%;
+}
+.leftShortText h1 {
+    font-size: 22pt;
+    margin-bottom: 20px;
+    text-align: start;
+    width: 100%;
+}
+#str2{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.section2{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.textGif{
+    white-space: normal;
+    font-size: 16px;
+    font-family: Ebrima;
+}
+.gif2{
+    position: relative;
+}
+#textText1{
+    display: flex;
+    width: 50%;
+    margin-left: 50px;
+}
+#Gif1{
+    display: flex;
+    width: 70%;
+}
+#textText2{
+    display: flex;
+    width: 30%;
+    margin-right: 50px;
+    align-self: center;
+}
+#Gif2{
+    display: flex;
+    margin: auto;
+    width: 30%;
+}
+.top{
+    color: #FFF;
+    font-size: 24pt;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: start;
+    margin-bottom: 20px;
+}
+.textText{
+    display: flex;
+    flex-direction: column;
+}
+.photo-container-5 {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+}
+.photo-container-5 img {
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+}
+.photo-container-5 .photo-1 {
+    position: relative;
+    animation: brightness 10s linear 5s infinite;
+}
+.photo-container-5 .photo-2 {
+    position: absolute;
+    top: 0;
+    animation: brightness 10s linear infinite;
+}
+@keyframes brightness {
+    0% {
+        opacity: 1;
+    }
+    54% {
+        filter: none;
+    }
+    58% {
+        opacity: 1;
+    }
+    59.99999% {
+        filter: brightness(10);
+        z-index: 1;
+    }
+    60% {
+        opacity: 0;
+        z-index: -1;
+    }
+}
+
+.map{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+#proba{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 25%;
+}
+.new{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    margin-left: -2%;
+}
+#map {
+    position: relative;
+    text-align: center;
+}
+.newMap{
+    width: 100%;
+}
+#title {
+    position: absolute;
+    left: 10%;
+    top: 5%;
+}
+#first {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    width: 20%;
+    left: 20%;
+    top: 10%;
+}
+#first p {
+    margin-top: 2%;
+    width: 80%;
+    font-family: Ebrima;
+    font-size: 20px;
+    text-align: end;
+}
+#second {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 20%;
+    left: 9%;
+    top: 36%;
+}
+#second p {
+    margin-top: 2%;
+    width: 80%;
+    font-family: Ebrima;
+    font-size: 20px;
+    text-align: start;
+}
+#third {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    width: 20%;
+    left: 70%;
+    top: 5%;
+}
+#third p {
+    margin-top: 2%;
+    width: 80%;
+    font-family: Ebrima;
+    font-size: 20px;
+    text-align: end;
+}
+#fourth {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    width: 20%;
+    left: 72%;
+    top: 28%;
+}
+#fourth p {
+    margin-top: 2%;
+    width: 80%;
+    font-family: Ebrima;
+    font-size: 20px;
+    text-align: end;
+}
+
+
+#str3Block{
+    margin: 0px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: transparent;
+    position: relative;
+}
+#str3Block h1 {
+    margin: 5% 0;
+}
+.profiles{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+.account{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: space-around;
+}
+.photo{
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.name{
+    margin-top: 10%;
+    margin-left: 6%;
+    margin-right: 6%;
+    color: #000000;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    font-size: 10pt;
+    padding: 2px;
+    width: 70%;
+    height: 20px;
+    align-self: center;
+}
+.inf{
+    margin-top: 10%;
+    margin-left: 6%;
+    margin-right: 6%;
+    color: #FFFFFF;
+    background-color: #324242;
+    display: flex;
+    justify-content: center;
+    font-size: 10pt;
+    padding: 10px;
+}
+
+.end {
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    width: 100%;
+}
+.end h1 {
+    text-align: start;
+    color: #FFF;
+    font-size: 24pt;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: Verdana;
+}
+.end h2 {
+    color: #FFF;
+    font-size: 18pt;
+    font-style: italic;
+    font-family: Verdana;
+    margin-bottom: 2%;
+}
+.end p {
+    white-space: normal;
+    font-size: 20px;
+    font-family: Ebrima;
+    margin-bottom: 2%;
+}
+
+#str4{
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+#kisa{
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    position: relative;
+}
+.kisa{
+    width: 100%;
+}
+#icon{
+    display: flex;
+    position: relative;
+    margin: 20px;
+    justify-content: center;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.bottom p {
+    width: 59%;
+    font-family: Ebrima;
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.email {
+    display: flex;
+    flex-direction: row;
+}
+.arrowIcon {
+    height: 30px;
+    width: 50px;
+    background-color: #4A4A4A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrowIcon img {
+    width: 20px;
+    height: 20px;
+}
+.email input {
+    background-color: #272526;
+    width: 250px;
+    border: none;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 7px;
+    color: #ffffff;
+    height: 30px;
+    font-style: italic;
+}
+#textBottom1{
+    display: flex;
+    position: relative;
+    margin: 20px;
+    width: 70%;
+    align-self: center;
+    font-family: Ebrima;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 20px;
+}
+#textBottom2{
+    display: flex;
+    position: relative;
+    margin: 20px;
+    width: 70%;
+    align-self: center;
+    font-family: Ebrima;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 20px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.carousel {
+    align-items: center;
+    display: flex;
+    margin: 2rem auto;
+    position: relative;
+    width: 300px;
+}
+.carousel__images {
+    align-items: center;
+    display: flex;
+    transform: translateX(0);
+    transition: transform 0.25s;
+}
+.carousel__images img {
+    border-radius: 5px;
+    height: 250px;
+    width: 250px;
+}
+.carousel__images img.active {
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.25);
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+}
+.carousel__button {
+    background: teal;
+    border: 0;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 3rem;
+    opacity: 0.25;
+    position: absolute;
+    transition: opacity 0.25s;
+    width: 3rem;
+    z-index: 1;
+}
+.carousel__button.previous {
+    left: 5px;
+}
+.carousel__button.next {
+    right: 5px;
+}
+.carousel__button:hover {
+    opacity: 0.5;
+}
+.marquee{
+    width:100%;
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+.marquee h1 {
+    display:inline-block;
+    padding-left:100%;
+    -webkit-animation: marquee 10s infinite linear;
+    animation: marquee 10s infinite linear;
+}
+
+@-webkit-keyframes marquee {
+    0%{-webkit-transform: translate(0, 0);}
+    100%{-webkit-transform: translate(-100%, 0);}
+}
+@keyframes marquee{
+    0%{transform: translate(0, 0);}
+    100%{transform: translate(-100%, 0)}
+}
