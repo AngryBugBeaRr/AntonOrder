@@ -12,23 +12,20 @@
         <p class="title">TEXT TEXT</p>
      </div>
      <nav>
-         <a class="menu" href="">
+         <a class="menu" href="#article">
              <p>menu1</p>
          </a>
-         <a class="menu" href="">
+         <a class="menu" href="#str2">
              <p>menu2</p>
          </a>
-         <a class="menu" href="">
+         <a class="menu" href="#map">
              <p>menu3</p>
          </a>
-         <a class="menu" href="">
+         <a class="menu" href="#str3Block">
              <p>menu4</p>
          </a>
-         <a class="menu" href="">
+         <a class="menu" href="#str4">
              <p>menu5</p>
-         </a>
-         <a class="menu" href="">
-             <p>menu6</p>
          </a>
          <a class="menu" href="#inst" onclick="window.open('https://www.instagram.com/')">
              <img class="icon" src="img/inst.webp"/>
@@ -45,9 +42,11 @@
      </nav>
  </header>
  <main>
-     <video class="gif" src="img/foxPlanet.webm"></video>
+     <video class="gif" preload="auto" autoplay loop playsinline muted>
+         <source src="img/foxPlanet.webm">
+     </video>
      <div class="marquee"><h1 class="centerTitle">News News News News News News News</h1></div>
-     <section class="article">
+     <section class="article" id="article">
          <aside class="leftShortText">
              <h1>TEXT TEXT</h1>
              <p class="articleText">
@@ -63,7 +62,9 @@
              </p>
          </aside>
          <div id="EyeImg">
-             <video class="EyeImg" src="img/Comp.webm"></video>
+             <video class="EyeImg" preload="auto" autoplay loop playsinline muted>
+                 <source src="img/Comp.webm">
+             </video>
          </div>
          <aside class="rightShortText">
              <h1>TEXT TEXT</h1>
@@ -84,8 +85,8 @@
      <section class="carousel">
          <button class="carousel__button previous" id="previous"><</button>
          <div class="carousel__images">
-             <img class="active" src="img/ramka1.webp" alt="">
-             <img src="img/ramka2.webp" alt="">
+             <img src="img/ramka1.webp" alt="">
+             <img class="active" src="img/ramka2.webp" alt="">
              <img src="img/ramka3.webp" alt="">
          </div>
          <button class="carousel__button next" id="next">></button>
@@ -115,7 +116,9 @@
                      text text text text text text text text text text text text text text text text text text text
                      text text text text text text text text text text text text text text text text text text text</p>
              </div>
-             <video class="gif2" id="Gif2" src="img/lapa.webm"></video>
+             <video class="gif2" id="Gif2"  preload="auto" autoplay loop playsinline muted>
+                 <source src="img/lapa.webm">
+             </video>
          </div>
          <div class="section2">
              <div class="photo-container-5" id="Gif1">
