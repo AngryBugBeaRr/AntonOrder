@@ -40,7 +40,7 @@ header {
 }
 main {
     width: 100%;
-    max-width: 80%;
+    max-width: 75%;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -85,14 +85,18 @@ and (max-device-width: 620px) {
     }
 
     #dropdown-content {
-        display: none;
+        width: 0;
+        height: 0;
+        visibility: hidden;
     }
 
     /* Выпадающее содержимое (скрыто по умолчанию) */
     #dropdown-content.active {
+        visibility: visible;
         display: block;
         position: absolute;
-        background-color: #142E32;
+        background-color: rgba(20, 46, 50, 0.5);
+        -webkit-transition: background-color 2s;
         width: 100%;
         height: 93%;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -102,6 +106,7 @@ and (max-device-width: 620px) {
         margin-top: 40%;
     }
     #dropdown-content h1 {
+        font-family: Ebrima;
         font-size: 40pt;
         margin-top: 5%;
     }
@@ -246,6 +251,7 @@ and (max-device-width: 620px) {
         margin:0;
     }
     .rightShortText {
+        font-family: Verdana;
         margin: 0;
         margin-top: 100px;
         display: flex;
@@ -271,6 +277,7 @@ and (max-device-width: 620px) {
         width: 100%;
     }
     .leftShortText{
+        font-family: Verdana;
         display: flex;
         align-self: start;
         width: 80%;
@@ -299,6 +306,7 @@ and (max-device-width: 620px) {
         width: 100%;
     }
     #title {
+        font-family: Verdana;
         position: absolute;
         left: 10%;
         top: 5%;
@@ -421,6 +429,7 @@ and (max-device-width: 620px) {
         color: #FFFFFF;
         display: flex;
         justify-content: center;
+        font-family: Verdana;
         font-size: 24pt;
         font-weight: bolder;
         font-style: italic;
@@ -436,6 +445,7 @@ and (max-device-width: 620px) {
         color: #FFFFFF;
         display: flex;
         justify-content: center;
+        font-family: Ebrima;
         font-size: 16pt;
         padding: 10px;
     }
@@ -455,6 +465,9 @@ and (max-device-width: 620px) {
         font-size: 18pt;
         font-weight: bolder;
         font-style: italic;
+        font-family: Verdana;
+    }
+    .end h2 {
         font-family: Verdana;
     }
 
@@ -521,6 +534,17 @@ and (max-device-width: 620px) {
         width: 100%;
         font-style: italic;
     }
+    .email input {
+        background-color: #272526;
+        width: 250px;
+        border: none;
+        display: flex;
+        padding-left: 10px;
+        outline: none;
+        color: #ffffff;
+        height: 30px;
+        font-style: italic;
+    }
 
     .arrowIcon {
         height: auto;
@@ -577,6 +601,15 @@ and (max-device-width: 620px) {
         overflow:hidden;
         margin-top: -35%;
     }
+    .arrowIcon {
+        height: 50px;
+        width: 50px;
+        background-color: #4A4A4A;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media only screen and (min-device-width: 620px) {
     nav {
@@ -613,6 +646,7 @@ and (max-device-width: 620px) {
         margin-bottom: 4%;
     }
     .rightShortText {
+        font-family: Verdana;
         margin-right: 0;
         display: flex;
         align-self: center;
@@ -627,6 +661,7 @@ and (max-device-width: 620px) {
         margin-bottom: 20px;
     }
     .leftShortText{
+        font-family: Verdana;
         display: flex;
         align-self: center;
         width: 22%;
@@ -671,6 +706,7 @@ and (max-device-width: 620px) {
         width: 100%;
     }
     #title {
+        font-family: Verdana;
         position: absolute;
         left: 10%;
         top: 5%;
@@ -786,6 +822,7 @@ and (max-device-width: 620px) {
         background-color: #FFFFFF;
         display: flex;
         justify-content: center;
+        font-family: Verdana;
         font-size: 10pt;
         padding: 2px;
         width: 70%;
@@ -800,6 +837,7 @@ and (max-device-width: 620px) {
         background-color: #324242;
         display: flex;
         justify-content: center;
+        font-family: Ebrima;
         font-size: 10pt;
         padding: 10px;
     }
@@ -933,10 +971,10 @@ and (max-device-width: 620px) {
     margin-left: 25px;
 }
 .centerTitle {
+    font-family: Ebrima;
     text-align: justify;
     text-align-last: justify;
     margin: 30px;
-
 }
 .title {
     font-family: Verdana;
@@ -945,6 +983,7 @@ and (max-device-width: 620px) {
     font-size: 36px;
 }
 .menu{
+    font-family: Ebrima;
     color: #FFF;
     margin: 0;
     padding-left: 1.5%;
@@ -1026,6 +1065,7 @@ a :hover{                      /* text-decoration:line-through; Добавляе
     width: 30%;
 }
 .top{
+    font-family: Verdana;
     color: #FFF;
     font-size: 24pt;
     font-weight: bolder;
