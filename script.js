@@ -1,15 +1,18 @@
 let flag = true;
 function display () {
     let block = document.getElementById('dropdown-content');
-    let header = document.getElementById('stick');
+    let header = document.getElementById('sticky');
+    let btn = document.getElementById('dropdown');
     if (flag) {
         block.classList.add('active');
         header.classList.add('act');
+        btn.classList.add('active');
         document.getElementById('open').src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png";
         flag = !flag;
     } else {
         block.classList.remove('active');
         header.classList.remove('act');
+        btn.classList.remove('active');
         document.getElementById('open').src="https://img.icons8.com/ios-glyphs/30/ffffff/menu-rounded.png";
         flag = !flag;
     }

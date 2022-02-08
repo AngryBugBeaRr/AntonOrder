@@ -7,12 +7,12 @@
     <script src="script.js"></script>
 </head>
 <body>
- <header id="stick">
+ <header>
      <div class="titleContainer">
         <p class="title">TEXT TEXT</p>
      </div>
-     <div class="dropdown">
-         <button onclick="display()" class="dropbtn">
+     <div id="dropdown">
+         <button onclick="display()" id="dropbtn">
              <img id="open" src="https://img.icons8.com/ios-glyphs/30/ffffff/menu-rounded.png"/>
          </button>
      </div>
@@ -45,28 +45,29 @@
             <img class="icon" src="img/ds.webp"/>
          </a>
      </nav>
+     <div id="sticky"></div>
  </header>
  <div id="dropdown-content">
      <div class="dropdown-text">
-         <h1>TEXT TEXT</h1>
-         <h1>TEXT TEXT</h1>
-         <h1>TEXT TEXT</h1>
-         <h1>TEXT TEXT</h1>
-         <h1>TEXT TEXT</h1>
-     </div>
-     <div class="dropdown-icon">
-         <a class="menu" href="#inst" onclick="window.open('https://www.instagram.com/')">
-             <img class="icon" src="img/inst.webp"/>
-         </a>
-         <a class="menu" href="#tg" onclick="window.open('https://web.telegram.org/')">
-             <img class="icon" src="img/tg.webp"/>
-         </a>
-         <a class="menu" href="#twitter" onclick="window.open('https://twitter.com/')">
-             <img class="icon" src="img/twitter.webp"/>
-         </a>
-         <a class="menu" href="#ds" onclick="window.open('https://discord.com/')">
-             <img class="icon" src="img/ds.webp"/>
-         </a>
+         <a><h1>TEXT TEXT</h1></a>
+         <a><h1>TEXT TEXT</h1></a>
+         <a><h1>TEXT TEXT</h1></a>
+         <a><h1>TEXT TEXT</h1></a>
+         <a><h1>TEXT TEXT</h1></a>
+         <div class="dropdown-icon">
+             <a class="menu" href="#inst" onclick="window.open('https://www.instagram.com/')">
+                 <img class="icon" src="img/inst.webp"/>
+             </a>
+             <a class="menu" href="#tg" onclick="window.open('https://web.telegram.org/')">
+                 <img class="icon" src="img/tg.webp"/>
+             </a>
+             <a class="menu" href="#twitter" onclick="window.open('https://twitter.com/')">
+                 <img class="icon" src="img/twitter.webp"/>
+             </a>
+             <a class="menu" href="#ds" onclick="window.open('https://discord.com/')">
+                 <img class="icon" src="img/ds.webp"/>
+             </a>
+         </div>
      </div>
  </div>
  <main>
