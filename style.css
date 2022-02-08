@@ -881,7 +881,7 @@ and (max-device-width: 620px) {
         margin-right: 70px;
         align-items: center;
     }
-    .dropdown {
+    #dropdown {
         display: none;
     }
     #dropdown-content {
