@@ -847,6 +847,13 @@ and (max-device-width: 620px) {
         margin-right: 70px;
         align-items: center;
     }
+    .gif {
+        background-image: url("img/fox.webp");
+        background-size: 100%;
+    }
+    .planetGif {
+        width: 100%;
+    }
     .dropdown {
         display: none;
     }
