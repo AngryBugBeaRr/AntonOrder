@@ -344,6 +344,7 @@ and (max-device-width: 620px) {
         visibility: visible;
         position: fixed;
         background-color: rgba(20, 46, 50, 0.5);
+        backdrop-filter: blur(7px);
         -webkit-transition: opacity 0.3s;
         opacity: 1;
         width: 100vw;
@@ -881,7 +882,7 @@ and (max-device-width: 620px) {
         margin-right: 70px;
         align-items: center;
     }
-    .dropdown {
+    #dropdown {
         display: none;
     }
     #dropdown-content {
