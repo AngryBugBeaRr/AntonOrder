@@ -35,7 +35,7 @@ header {
     height: 70px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     justify-content: space-between;
     align-items: center;
 }
@@ -216,60 +216,46 @@ a :hover{
 /*Скролл фото*/
 
 * {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-.carousel {
-    align-items: center;
-    display: flex;
-    margin: 2rem auto;
-    position: relative;
-    width: 100%;
-    justify-content: center;
-}
-.carousel__images {
-    align-items: center;
-    display: flex;
-    transform: translateX(0);
-    transition: transform 0.25s;
-}
-.carousel__images img {
-    border-radius: 5px;
-    height: 400px;
-    width: 26%;
-}
-.carousel__images img.active {
-    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.25);
-    height: 500px;
-    width: 48%;
-    z-index: 1;
-}
-.carousel__button {
-    background: teal;
-    border: 0;
-    border-radius: 50%;
-    color: white;
-    cursor: pointer;
-    font-size: 1.5rem;
-    font-weight: bold;
-    height: 3rem;
-    opacity: 0.25;
-    position: absolute;
-    transition: opacity 0.25s;
-    width: 3rem;
-    z-index: 1;
-}
-.carousel__button.previous {
-    left: 32%;
-}
-.carousel__button.next {
-    right: 32%;
-}
-.carousel__button:hover {
-    opacity: 0.5;
 }
 
+body { font-family: sans-serif; }
+
+.gallery {
+    height: 400px;
+    margin-top: 5%;
+}
+
+.gallery-cell {
+    width: 30%;
+    height: 300px;
+    margin-right: 10px;
+    counter-increment: gallery-cell;
+    transition: height 0.2s;
+}
+.gallery-cell img {
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
+}
+.gallery-cell.is-selected {
+    height: 400px;
+    margin-top: -50px;
+}
+.gallery-cell.is-selected img {
+    height: 100%;
+}
+
+/* cell number */
+.gallery-cell:before {
+    display: block;
+    text-align: center;
+    /*content: counter(gallery-cell);*/
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
 /*Бегущая строка*/
 
 .marquee h1 {
@@ -310,7 +296,9 @@ and (max-device-width: 620px) {
         font-size: 16px;
         border: none;
     }
-
+    main .one {
+        display: none;
+    }
     /* Контейнер <div> - необходим для размещения выпадающего содержимого */
     #dropdown {
         position: relative;
@@ -512,7 +500,7 @@ and (max-device-width: 620px) {
     }
     .rightShortText p {
         text-align: end;
-        margin: 0;
+        margin-bottom: 2%;
     }
     .rightShortText h1 {
         width: 100%;
@@ -534,6 +522,9 @@ and (max-device-width: 620px) {
         align-self: start;
         width: 80%;
         margin: 0;
+    }
+    .leftShortText p {
+        margin-bottom: 2%;
     }
     #str2 {
         display: none;
@@ -851,7 +842,7 @@ and (max-device-width: 620px) {
         width:100%;
         white-space:nowrap;
         overflow:hidden;
-        margin-top: -55%;
+        margin-top: -45%;
     }
     .arrowIcon {
         height: 50px;
@@ -882,6 +873,9 @@ and (max-device-width: 620px) {
         margin-right: 70px;
         align-items: center;
     }
+    main .two {
+        display: none;
+    }
     #dropdown {
         display: none;
     }
@@ -889,9 +883,6 @@ and (max-device-width: 620px) {
         display: none;
     }
     .firstPhoto{
-        display: none;
-    }
-    .carousel2 {
         display: none;
     }
     .article {
@@ -912,7 +903,7 @@ and (max-device-width: 620px) {
         font-family: Verdana;
         margin-right: 0;
         display: flex;
-        align-self: center;
+        align-self: start;
         width: 22%;
     }
     .rightShortText p {
@@ -926,7 +917,7 @@ and (max-device-width: 620px) {
     .leftShortText{
         font-family: Verdana;
         display: flex;
-        align-self: center;
+        align-self: start;
         width: 22%;
     }
     .leftShortText h1 {

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="style.css" media="screen" />
+    <link rel="stylesheet" href="flickity.css" media="screen">
+    <script src="flickity.pkgd.min.js"></script>
     <script src="script.js"></script>
 </head>
 <body>
@@ -96,15 +98,15 @@
                  <source src="img/Comp.webm">
              </video>
          </div>
-         <section class="carousel2">
-             <button class="carousel__button2 previous" id="previous2"><</button>
-             <div class="carousel__images2">
-                 <img src="img/ramka1.webp" alt="">
-                 <img class="active" src="img/ramka2.webp" alt="">
-                 <img src="img/ramka3.webp" alt="">
-             </div>
-             <button class="carousel__button2 next" id="next2">></button>
-         </section>
+         <div class="gallery js-flickity two"
+              data-flickity-options='{ "wrapAround": true, "pageDots": false, "adaptiveHeight": true }'>
+             <div class="gallery-cell"><img src="img/ramka1.webp" alt=""></div>
+             <div class="gallery-cell"><img class="active" src="img/ramka2.webp" alt=""></div>
+             <div class="gallery-cell"><img src="img/ramka3.webp" alt=""></div>
+             <div class="gallery-cell"><img src="img/ramka1.webp" alt=""></div>
+             <div class="gallery-cell"><img class="active" src="img/ramka2.webp" alt=""></div>
+             <div class="gallery-cell"><img src="img/ramka3.webp" alt=""></div>
+         </div>
          <aside class="rightShortText">
              <h1>TEXT TEXT</h1>
              <p class="articleText">
@@ -121,15 +123,15 @@
          </aside>
      </section>
 
-     <section class="carousel">
-         <button class="carousel__button previous" id="previous"><</button>
-         <div class="carousel__images">
-             <img src="img/ramka1.webp" alt="">
-             <img class="active" src="img/ramka2.webp" alt="">
-             <img src="img/ramka3.webp" alt="">
-         </div>
-         <button class="carousel__button next" id="next">></button>
-     </section>
+     <div class="gallery js-flickity one"
+          data-flickity-options='{ "wrapAround": true, "pageDots": false, "adaptiveHeight": true }'>
+         <div class="gallery-cell"><img src="img/ramka1.webp" alt=""></div>
+         <div class="gallery-cell"><img class="active" src="img/ramka2.webp" alt=""></div>
+         <div class="gallery-cell"><img src="img/ramka3.webp" alt=""></div>
+         <div class="gallery-cell"><img src="img/ramka1.webp" alt=""></div>
+         <div class="gallery-cell"><img class="active" src="img/ramka2.webp" alt=""></div>
+         <div class="gallery-cell"><img src="img/ramka3.webp" alt=""></div>
+     </div>
 
      <div class="line"></div>
 
