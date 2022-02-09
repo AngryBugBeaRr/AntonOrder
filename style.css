@@ -842,7 +842,7 @@ and (max-device-width: 620px) {
         width:100%;
         white-space:nowrap;
         overflow:hidden;
-        margin-top: -55%;
+        margin-top: -45%;
     }
     .arrowIcon {
         height: 50px;
