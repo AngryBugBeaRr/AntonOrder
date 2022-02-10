@@ -268,7 +268,7 @@ body { font-family: sans-serif; }
 /*Мобильные стили*/
 
 @media only screen
-and (max-device-width: 620px) {
+and (max-device-width: 770px) {
     main {
         width: 100%;
         max-width: 100%;
@@ -786,9 +786,10 @@ and (max-device-width: 620px) {
 
 /*Десктопные стили*/
 
-@media only screen and (min-device-width: 621px) {
+@media only screen and (min-device-width: 771px) {
     main {
         width: 100%;
+        min-width: 800px;
         max-width: 63%;
         display: flex;
         flex-direction: column;
@@ -888,23 +889,23 @@ and (max-device-width: 620px) {
     .newMap{
         width: 100%;
     }
-    #title {
-        font-family: Verdana;
-        position: absolute;
-        left: 10%;
-        top: 5%;
-    }
-    #first {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        align-items: end;
-        justify-content: end;
-        width: 25%;
-        left: 20%;
-        top: 12%;
-    }
-    @media only screen and (min-device-width: 1400px) {
+    @media only screen and (min-width: 1400px) {
+        #title {
+            font-family: Verdana;
+            position: absolute;
+            left: 10%;
+            top: 5%;
+        }
+        #first {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            justify-content: end;
+            width: 25%;
+            left: 20%;
+            top: 12%;
+        }
         #first p {
             margin-top: -5%;
             width: 100%;
@@ -964,16 +965,32 @@ and (max-device-width: 620px) {
             text-align: end;
         }
     }
-    @media only screen and (max-device-width: 1399px) {
+    @media only screen and (max-width: 1399px) {
+        #title {
+            font-family: Verdana;
+            position: absolute;
+            left: 10%;
+            top: -3%;
+        }
+        #first {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            justify-content: end;
+            width: 25%;
+            left: 17%;
+            top: 8%;
+        }
         #first p {
-            margin-top: 2%;
+            margin-top: -5%;
             width: 80%;
             font-family: Ebrima;
             font-size: 10px;
             text-align: end;
         }
         #first h1 {
-            font-size: 25px;
+            font-size: 15px;
         }
         #second {
             position: absolute;
@@ -981,22 +998,22 @@ and (max-device-width: 620px) {
             flex-direction: column;
             align-items: start;
             justify-content: start;
-            width: 20%;
-            left: 9%;
+            width: 25%;
+            left: 5%;
             top: 36%;
         }
         #second h1 {
-            font-size: 25px;
+            font-size: 15px;
         }
         #second p {
-            margin-top: 2%;
+            margin-top: -5%;
             width: 80%;
             font-family: Ebrima;
             font-size: 10px;
             text-align: start;
         }
         #third h1 {
-            font-size: 25px;
+            font-size: 15px;
         }
         #third {
             position: absolute;
@@ -1006,17 +1023,17 @@ and (max-device-width: 620px) {
             justify-content: end;
             width: 27%;
             left: 70%;
-            top: 5%;
+            top: 2%;
         }
         #third p {
-            margin-top: 2%;
+            margin-top: -5%;
             width: 80%;
             font-family: Ebrima;
             font-size: 10px;
             text-align: end;
         }
         #fourth h1 {
-            font-size: 25px;
+            font-size: 15px;
         }
         #fourth {
             position: absolute;
@@ -1025,11 +1042,11 @@ and (max-device-width: 620px) {
             align-items: end;
             justify-content: end;
             width: 27%;
-            left: 72%;
-            top: 28%;
+            left: 70%;
+            top: 26%;
         }
         #fourth p {
-            margin-top: 2%;
+            margin-top: -5%;
             width: 80%;
             font-family: Ebrima;
             font-size: 10px;
