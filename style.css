@@ -35,7 +35,6 @@ header {
     height: 70px;
     display: flex;
     flex-direction: row;
-    /*flex-wrap: wrap;*/
     justify-content: space-between;
     align-items: center;
 }
@@ -787,14 +786,41 @@ and (max-device-width: 770px) {
 /*Десктопные стили*/
 
 @media only screen and (min-device-width: 771px) {
-    main {
-        width: 100%;
+    header {
         min-width: 800px;
-        max-width: 63%;
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        background-color: black;
+    }
+    @media only screen and (min-width: 1400px) {
+        main {
+            width: 100%;
+            min-width: 800px;
+            max-width: 63%;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            background-color: black;
+        }
+    }
+    @media only screen and (max-width: 1399px) {
+        main {
+            width: 100%;
+            min-width: 800px;
+            max-width: 82%;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            background-color: black;
+        }
+    }
+    @media only screen and (max-width: 1080px) {
+        main {
+            width: 100%;
+            min-width: 800px;
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            background-color: black;
+        }
     }
     nav {
         display: flex;
