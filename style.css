@@ -818,7 +818,6 @@ and (max-device-width: 770px) {
             max-width: 100%;
             display: flex;
             flex-direction: column;
-            margin: auto;
             background-color: black;
         }
     }
@@ -1151,7 +1150,7 @@ and (max-device-width: 770px) {
         display: flex;
         flex-direction: column;
         align-self: start;
-        width: 100%;
+        width: 80%;
     }
     .end h1 {
         text-align: start;
