@@ -1011,11 +1011,11 @@ and (max-device-width: 770px) {
             margin-top: -5%;
             width: 80%;
             font-family: Ebrima;
-            font-size: 10px;
+            font-size: 16px;
             text-align: end;
         }
         #first h1 {
-            font-size: 15px;
+            font-size: 25px;
         }
         #second {
             position: absolute;
@@ -1028,17 +1028,17 @@ and (max-device-width: 770px) {
             top: 36%;
         }
         #second h1 {
-            font-size: 15px;
+            font-size: 25px;
         }
         #second p {
             margin-top: -5%;
             width: 80%;
             font-family: Ebrima;
-            font-size: 10px;
+            font-size: 16px;
             text-align: start;
         }
         #third h1 {
-            font-size: 15px;
+            font-size: 25px;
         }
         #third {
             position: absolute;
@@ -1054,11 +1054,11 @@ and (max-device-width: 770px) {
             margin-top: -5%;
             width: 80%;
             font-family: Ebrima;
-            font-size: 10px;
+            font-size: 16px;
             text-align: end;
         }
         #fourth h1 {
-            font-size: 15px;
+            font-size: 25px;
         }
         #fourth {
             position: absolute;
@@ -1068,13 +1068,13 @@ and (max-device-width: 770px) {
             justify-content: end;
             width: 27%;
             left: 70%;
-            top: 26%;
+            top: 25%;
         }
         #fourth p {
             margin-top: -5%;
             width: 80%;
             font-family: Ebrima;
-            font-size: 10px;
+            font-size: 16px;
             text-align: end;
         }
     }
