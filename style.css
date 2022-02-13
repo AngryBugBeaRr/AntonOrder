@@ -420,6 +420,7 @@ and (max-device-width: 770px) {
     }
     .rightShortText {
         font-family: Verdana;
+        font-size: 20px;
         margin: 0;
         margin-top: 100px;
         display: flex;
@@ -496,7 +497,7 @@ and (max-device-width: 770px) {
         margin-top: 2%;
         width: 80%;
         font-family: Ebrima;
-        font-size: 20px;
+        font-size: 25px;
         text-align: end;
     }
     #second {
@@ -513,7 +514,7 @@ and (max-device-width: 770px) {
         margin-top: 2%;
         width: 80%;
         font-family: Ebrima;
-        font-size: 20px;
+        font-size: 25px;
         text-align: start;
     }
     #third {
@@ -530,7 +531,7 @@ and (max-device-width: 770px) {
         margin-top: 2%;
         width: 80%;
         font-family: Ebrima;
-        font-size: 20px;
+        font-size: 25px;
         text-align: end;
     }
     #fourth {
@@ -547,7 +548,7 @@ and (max-device-width: 770px) {
         margin-top: 2%;
         width: 80%;
         font-family: Ebrima;
-        font-size: 20px;
+        font-size: 25px;
         text-align: end;
     }
     #map {
@@ -617,7 +618,7 @@ and (max-device-width: 770px) {
         display: flex;
         justify-content: center;
         font-family: Ebrima;
-        font-size: 16pt;
+        font-size: 18pt;
         padding: 10px;
     }
     .end {
@@ -633,7 +634,7 @@ and (max-device-width: 770px) {
     .end h1 {
         text-align: start;
         color: #FFF;
-        font-size: 18pt;
+        font-size: 25pt;
         font-weight: bolder;
         font-style: italic;
         font-family: Verdana;
@@ -644,7 +645,7 @@ and (max-device-width: 770px) {
 
     .end p {
         white-space: normal;
-        font-size: 8pt;
+        font-size: 16pt;
         font-family: Ebrima;
         margin-bottom: 2%;
     }
@@ -809,6 +810,12 @@ and (max-device-width: 770px) {
             flex-direction: column;
             margin: auto;
             background-color: black;
+        }
+        #title {
+            font-family: Verdana;
+            position: absolute;
+            left: 10%;
+            margin-top: 7%;
         }
     }
     @media only screen and (max-width: 1080px) {
