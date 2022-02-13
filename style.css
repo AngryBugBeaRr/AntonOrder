@@ -348,26 +348,23 @@ and (max-device-width: 770px) {
     }
     .gallery-cell {
         width: 35%;
-        /*height: 300px;*/
-        margin-right: 5px;
-        padding-left: 45px;
+        margin-right: 10px;
         counter-increment: gallery-cell;
         transition: height 0.2s;
     }
     .gallery-cell img {
         margin-top: 50px;
-        width: 80%;
-        height: 300px;
+        width: 90%;
+        max-height: 400px;
         border: 2px solid #B1FDFD;
     }
     .gallery-cell.is-selected {
-        height: 300px;
+        max-height: 400px;
         margin-top: -50px;
-        padding-right: 40px;
     }
     .gallery-cell.is-selected img {
         height: 100%;
-        width: 100%;
+        width: 90%;
         border: 2px solid #DFCDFD;
     }
     .article {
@@ -789,7 +786,7 @@ and (max-device-width: 770px) {
     }
     @media only screen and (min-width: 1400px) {
         main {
-            width: 1400px;
+            width: 1000px;
             min-width: 800px;
             display: flex;
             flex-direction: column;
@@ -850,65 +847,60 @@ and (max-device-width: 770px) {
             margin-bottom: 150px;
         }
         .gallery-cell {
-            padding-left: 100px;
             width: 35%;
-            /*height: 300px;*/
-            margin-right: 5px;
             padding-right: 0px;
             counter-increment: gallery-cell;
             transition: height 0.2s;
         }
         .gallery-cell img {
             margin-top: 50px;
-            width: 80%;
-            height: 400px;
+            width: 91%;
+            max-height: 400px;
+            display: block;
             border: 2px solid #B1FDFD;
         }
         .gallery-cell.is-selected {
-            height: 400px;
+            max-height: 400px;
             margin-top: -50px;
-            padding-right: 60px;
         }
         .gallery-cell.is-selected img {
             height: 100%;
-            width: 100%;
+            width: 90%;
             border: 2px solid #DFCDFD;
         }
         .flickity-button {
             margin-top: 4%;
         }
         .flickity-button.previous {
-            margin-left: 1%;
+            margin-left: -1%;
         }
     }
-    @media only screen and (max-width: 1080px) {
+    @media only screen and (max-width: 1399px) {
         .gallery {
             height: 400px;
             margin-top: 5%;
             margin-bottom: 100px;
         }
         .gallery-cell {
-            padding-left: 30px;
             width: 33%;
-            /*height: 300px;*/
-            margin-right: 5px;
+            margin-right: 35px;
             counter-increment: gallery-cell;
             transition: height 0.2s;
         }
         .gallery-cell img {
             margin-top: 50px;
-            width: 80%;
-            height: 300px;
+            display: block;
+            width: 90%;
+            max-height: 400px;
             border: 2px solid #B1FDFD;
         }
         .gallery-cell.is-selected {
-            height: 300px;
+            max-height: 400px;
             margin-top: -50px;
-            padding-right: 60px;
         }
         .gallery-cell.is-selected img {
             height: 100%;
-            width: 100%;
+            width: 90%;
             border: 2px solid #DFCDFD;
         }
     }
@@ -919,27 +911,25 @@ and (max-device-width: 770px) {
             margin-bottom: 100px;
         }
         .gallery-cell {
-            padding-left: 20px;
             width: 33%;
-            /*height: 300px;*/
-            margin-right: 5px;
+            margin-right: 25px;
             counter-increment: gallery-cell;
             transition: height 0.2s;
         }
         .gallery-cell img {
+            display: block;
             margin-top: 50px;
-            width: 80%;
-            height: 300px;
+            width: 90%;
+            max-height: 400px;
             border: 2px solid #B1FDFD;
         }
         .gallery-cell.is-selected {
-            height: 300px;
+            max-height: 400px;
             margin-top: -50px;
-            padding-right: 40px;
         }
         .gallery-cell.is-selected img {
             height: 100%;
-            width: 100%;
+            width: 90%;
             border: 2px solid #DFCDFD;
         }
     }
@@ -1093,7 +1083,7 @@ and (max-device-width: 770px) {
             text-align: end;
         }
     }
-    @media only screen and (min-width: 1100px) {
+    @media only screen and (max-width: 1399px) {
         #title {
             font-family: Verdana;
             position: absolute;
