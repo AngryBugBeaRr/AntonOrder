@@ -1453,8 +1453,16 @@ and (max-device-width: 770px) {
     .menu2 {
         margin-right: 13px;
         width: 48px;
+        height: 48px;
         display: flex;
         justify-content: end;
+    }
+    #tw2 {
+        margin-top: 2px;
+    }
+    .menu2 img {
+        width: 39px;
+        height: 39px;
     }
     .bottom{
         display: flex;
