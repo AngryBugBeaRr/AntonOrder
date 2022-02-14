@@ -505,7 +505,7 @@ and (max-device-width: 770px) {
         top: 10%;
     }
     #first p {
-        margin-top: 2%;
+        margin-top: -3%;
         width: 80%;
         font-family: Ebrima;
         font-size: 25px;
@@ -522,7 +522,7 @@ and (max-device-width: 770px) {
         top: 38%;
     }
     #second p {
-        margin-top: 2%;
+        margin-top: -3%;
         width: 80%;
         font-family: Ebrima;
         font-size: 25px;
@@ -539,7 +539,7 @@ and (max-device-width: 770px) {
         top: 58%;
     }
     #third p {
-        margin-top: 2%;
+        margin-top: -3%;
         width: 80%;
         font-family: Ebrima;
         font-size: 25px;
@@ -556,7 +556,7 @@ and (max-device-width: 770px) {
         top: 80%;
     }
     #fourth p {
-        margin-top: 2%;
+        margin-top: -3%;
         width: 80%;
         font-family: Ebrima;
         font-size: 25px;
@@ -1117,7 +1117,7 @@ and (max-device-width: 770px) {
             top: 32%;
         }
         #second p {
-            margin-top: 1%;
+            margin-top: -5%;
             width: 80%;
             font-family: Ebrima;
             font-size: 15px;
@@ -1134,7 +1134,7 @@ and (max-device-width: 770px) {
             top: 1%;
         }
         #third p {
-            margin-top: 0%;
+            margin-top: -5%;
             width: 80%;
             font-family: Ebrima;
             font-size: 15px;
@@ -1151,7 +1151,7 @@ and (max-device-width: 770px) {
             top: 22%;
         }
         #fourth p {
-            margin-top: 1%;
+            margin-top: -5%;
             width: 80%;
             font-family: Ebrima;
             font-size: 15px;
@@ -1281,7 +1281,7 @@ and (max-device-width: 770px) {
             top: 30%;
         }
         #second p {
-            margin-top: 1%;
+            margin-top: -5%;
             width: 80%;
             font-family: Ebrima;
             font-size: 14px;
@@ -1298,7 +1298,7 @@ and (max-device-width: 770px) {
             top: -2%;
         }
         #third p {
-            margin-top: 0%;
+            margin-top: -5%;
             width: 80%;
             font-family: Ebrima;
             font-size: 14px;
@@ -1315,7 +1315,7 @@ and (max-device-width: 770px) {
             top: 21%;
         }
         #fourth p {
-            margin-top: -3%;
+            margin-top: -5%;
             width: 80%;
             font-family: Ebrima;
             font-size: 14px;
