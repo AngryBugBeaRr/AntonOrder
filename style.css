@@ -58,6 +58,7 @@ h1 {
 }
 .titleContainer {
     margin-left: 25px;
+    width: 50%;
 }
 .centerTitle {
     font-family: Ebrima;
@@ -431,7 +432,7 @@ and (max-device-width: 770px) {
         margin-top: 100px;
         display: flex;
         align-self: end;
-        width: 80%;
+        width: 100%;
     }
     .rightShortText p {
         text-align: end;
@@ -500,7 +501,7 @@ and (max-device-width: 770px) {
         align-items: end;
         justify-content: end;
         width: 50%;
-        left: 30%;
+        left: 50%;
         top: 10%;
     }
     #first p {
@@ -534,8 +535,8 @@ and (max-device-width: 770px) {
         align-items: end;
         justify-content: end;
         width: 50%;
-        left: 30%;
-        top: 60%;
+        left: 50%;
+        top: 58%;
     }
     #third p {
         margin-top: 2%;
@@ -601,8 +602,10 @@ and (max-device-width: 770px) {
         width: 40%;
     }
     .photo{
-        margin-left: 6%;
-        margin-right: 6%;
+        width: 350px;
+        height: 360px;
+        margin-left: 0%;
+        margin-right: 0%;
     }
     .name{
         margin-top: 4%;
@@ -615,6 +618,7 @@ and (max-device-width: 770px) {
         font-size: 24pt;
         font-weight: bolder;
         font-style: italic;
+        border-radius: 10px;
         padding: 2px;
         width: 70%;
         align-self: center;
@@ -628,6 +632,7 @@ and (max-device-width: 770px) {
         display: flex;
         justify-content: center;
         font-family: Ebrima;
+        border-radius: 10px;
         font-size: 18pt;
         padding: 10px;
     }
@@ -1020,7 +1025,7 @@ and (max-device-width: 770px) {
         margin-right: 0;
         display: flex;
         align-self: start;
-        width: 22%;
+        width: 25%;
     }
     .rightShortText p {
         text-align: end;
@@ -1378,6 +1383,7 @@ and (max-device-width: 770px) {
         justify-content: center;
         font-family: Verdana;
         font-size: 10pt;
+        border-radius: 10px;
         padding: 2px;
         width: 85%;
         height: 20px;
@@ -1389,6 +1395,7 @@ and (max-device-width: 770px) {
         margin-right: 6%;
         color: #FFFFFF;
         background-color: #091f24;
+        border-radius: 10px;
         display: flex;
         justify-content: center;
         font-family: Ebrima;
@@ -1417,13 +1424,13 @@ and (max-device-width: 770px) {
         font-size: 18pt;
         font-style: italic;
         font-family: Verdana;
-        margin-bottom: 3%;
+        margin-bottom: -1%;
     }
     .end p {
         white-space: normal;
         font-size: 20px;
         font-family: Ebrima;
-        margin: 0;
+        margin-bottom: 15px;
     }
     #str4Mobile {
         display: none;
