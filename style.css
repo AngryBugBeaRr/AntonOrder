@@ -1096,7 +1096,7 @@ and (max-device-width: 770px) {
             align-items: end;
             justify-content: end;
             width: 30%;
-            left: 18%;
+            left: 22%;
             top: 7%;
         }
         #first p {
@@ -1130,7 +1130,7 @@ and (max-device-width: 770px) {
             align-items: end;
             justify-content: end;
             width: 30%;
-            left: 67%;
+            left: 69%;
             top: 1%;
         }
         #third p {
@@ -1147,7 +1147,7 @@ and (max-device-width: 770px) {
             align-items: end;
             justify-content: end;
             width: 26%;
-            left: 72%;
+            left: 73%;
             top: 22%;
         }
         #fourth p {
@@ -1294,7 +1294,7 @@ and (max-device-width: 770px) {
             align-items: end;
             justify-content: end;
             width: 30%;
-            left: 67%;
+            left: 69%;
             top: -2%;
         }
         #third p {
@@ -1311,7 +1311,7 @@ and (max-device-width: 770px) {
             align-items: end;
             justify-content: end;
             width: 30%;
-            left: 68%;
+            left: 69%;
             top: 21%;
         }
         #fourth p {
@@ -1474,7 +1474,16 @@ and (max-device-width: 770px) {
     .bottom{
         display: flex;
         flex-direction: column;
-        width: 40%;
+        width: 50%;
+        position: relative;
+        justify-content: center;
+        align-items: end;
+        margin-left: 10px;
+    }
+    .bottom1 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
         position: relative;
         justify-content: center;
         align-items: start;
