@@ -35,10 +35,10 @@
          <a class="menu" href="#str4">
              <p>FAQ</p>
          </a>
-         <a class="menu" href="#twitter" onclick="window.open('https://twitter.com/')">
+         <a id="twitter" class="menu" href="#twitter" onclick="window.open('https://twitter.com/')">
             <img class="icon" src="img/twitter.webp"/>
          </a>
-         <a class="menu" href="#ds" onclick="window.open('https://discord.com/')">
+         <a id="ds" class="menu" href="#ds" onclick="window.open('https://discord.com/')">
             <img class="icon" src="img/ds.webp"/>
          </a>
      </nav>
@@ -46,16 +46,16 @@
  </header>
  <div id="dropdown-content">
      <div class="dropdown-text">
-         <a class="menu" href="#article" ><h1>ABOUT</h1></a>
-         <a class="menu" href="#article2"><h1>MECHANICS</h1></a>
-         <a class="menu" href="#map2"><h1>ROADMAP</h1></a>
-         <a class="menu" href="#str3Block2"><h1>TEAM</h1></a>
-         <a class="menu" href="#str4Mobile"><h1>FAQ</h1></a>
+         <a onclick="display()" class="menu" href="#article" ><h1>ABOUT</h1></a>
+         <a onclick="display()" class="menu" href="#article2"><h1>MECHANICS</h1></a>
+         <a onclick="display()" class="menu" href="#map2"><h1>ROADMAP</h1></a>
+         <a onclick="display()" class="menu" href="#str3Block2"><h1>TEAM</h1></a>
+         <a onclick="display()" class="menu" href="#str4Mobile"><h1>FAQ</h1></a>
          <div class="dropdown-icon">
-             <a class="menu" href="#twitter" onclick="window.open('https://twitter.com/')">
+             <a id="tw" class="menu" href="#twitter" onclick="window.open('https://twitter.com/')">
                  <img class="icon" src="img/twitter.webp"/>
              </a>
-             <a class="menu" href="#ds" onclick="window.open('https://discord.com/')">
+             <a id="discord" class="menu" href="#ds" onclick="window.open('https://discord.com/')">
                  <img class="icon" src="img/ds.webp"/>
              </a>
          </div>
@@ -124,7 +124,7 @@
 
      <div class="line"></div>
 
-     <section class="article2">
+     <section id="article2" class="article2">
          <aside class="leftShortText">
              <h1>THE GRAND LODGE</h1>
              <p class="articleText">

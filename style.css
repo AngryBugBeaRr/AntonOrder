@@ -233,6 +233,9 @@ body { font-family: sans-serif; }
 
 @media only screen
 and (max-device-width: 770px) {
+    header {
+        height: 5%;
+    }
     main {
         width: 100%;
         max-width: 100%;
@@ -246,10 +249,10 @@ and (max-device-width: 770px) {
     }
     /* Кнопка выпадающего списка */
     #dropbtn {
-        background-color: #142E32;
+        background-color: #091f24;
         color: white;
-        padding: 16px;
-        font-size: 16px;
+        padding: 32px;
+        font-size: 32px;
         border: none;
     }
     main .one {
@@ -264,8 +267,9 @@ and (max-device-width: 770px) {
         display: block;
         visibility: visible;
         width: 100%;
-        height: 70px;
+        height: 117px;
         background-color: rgba(20, 46, 50, 0.5);
+        backdrop-filter: blur(7px);
         position: fixed;
         opacity: 1;
         z-index: 2;
@@ -310,9 +314,21 @@ and (max-device-width: 770px) {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin-top: 10%;
+        margin-top: 6%;
+        height: 20%;
+        width: 100%;
     }
-
+    #tw {
+        margin-right: 5%;
+    }
+    #tw img {
+        width: 64px;
+        height: 64px;
+    }
+    #discord img {
+        width: 64px;
+        height: 64px;
+    }
     /* Ссылки внутри выпадающего списка */
     #dropdown-content a {
         color: white;
@@ -787,6 +803,13 @@ and (max-device-width: 770px) {
     header {
         min-width: 800px;
     }
+    #twitter {
+        margin-left: 20px;
+        display: flex;
+    }
+    #ds {
+        display: flex;
+    }
     @media only screen and (min-width: 1400px) {
         main {
             width: 1000px;
@@ -859,14 +882,15 @@ and (max-device-width: 770px) {
             margin-bottom: 150px;
         }
         .gallery-cell {
-            width: 35%;
+            width: 34%;
             padding-right: 0px;
             counter-increment: gallery-cell;
             transition: height 0.2s;
         }
         .gallery-cell img {
             margin-top: 50px;
-            width: 91%;
+            width: 88%;
+            margin-left: 6.5%;
             max-height: 400px;
             display: block;
             border: 2px solid #B1FDFD;
@@ -886,6 +910,9 @@ and (max-device-width: 770px) {
         .flickity-button.previous {
             margin-left: -1%;
         }
+        .flickity-button.next {
+            margin-right: -1%;
+        }
     }
     @media only screen and (max-width: 1399px) {
         .gallery {
@@ -894,7 +921,7 @@ and (max-device-width: 770px) {
             margin-bottom: 100px;
         }
         .gallery-cell {
-            width: 33%;
+            width: 32%;
             margin-right: 35px;
             counter-increment: gallery-cell;
             transition: height 0.2s;
@@ -902,7 +929,8 @@ and (max-device-width: 770px) {
         .gallery-cell img {
             margin-top: 50px;
             display: block;
-            width: 90%;
+            width: 88%;
+            margin-left: 6%;
             max-height: 400px;
             border: 2px solid #B1FDFD;
         }
@@ -919,11 +947,11 @@ and (max-device-width: 770px) {
     @media only screen and (max-width: 1079px) {
         .gallery {
             height: 400px;
-            margin-top: 5%;
-            margin-bottom: 100px;
+            margin-top: 10%;
+            margin-bottom: -40px;
         }
         .gallery-cell {
-            width: 33%;
+            width: 30%;
             margin-right: 25px;
             counter-increment: gallery-cell;
             transition: height 0.2s;
@@ -931,7 +959,7 @@ and (max-device-width: 770px) {
         .gallery-cell img {
             display: block;
             margin-top: 50px;
-            width: 90%;
+            width: 89%;
             max-height: 400px;
             border: 2px solid #B1FDFD;
         }
@@ -943,6 +971,15 @@ and (max-device-width: 770px) {
             height: 100%;
             width: 90%;
             border: 2px solid #DFCDFD;
+        }
+        .flickity-button {
+            margin-top: -4%;
+        }
+        .flickity-button.previous {
+            margin-left: -1%;
+        }
+        .flickity-button.next {
+            margin-right: -1%;
         }
     }
     .article {
@@ -991,6 +1028,7 @@ and (max-device-width: 770px) {
         width: 100%;
         flex-direction: column;
         margin-top: 100px;
+        margin-bottom: 30px;
     }
     .article2 {
         display: none;
@@ -1013,6 +1051,7 @@ and (max-device-width: 770px) {
         margin-left: -2%;
     }
     #map {
+        margin-top: 50px;
         position: relative;
         text-align: center;
     }
@@ -1188,7 +1227,7 @@ and (max-device-width: 770px) {
             font-family: Verdana;
             position: absolute;
             left: 10%;
-            top: -5%;
+            top: -8%;
         }
         #first {
             position: absolute;
