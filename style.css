@@ -475,7 +475,7 @@ and (max-device-width: 770px) {
         font-family: Verdana;
         position: absolute;
         left: 10%;
-        top: 5%;
+        top: 3%;
     }
     #first {
         position: absolute;
@@ -776,6 +776,9 @@ and (max-device-width: 770px) {
         justify-content: center;
         align-items: center;
     }
+    .flickity-viewport {
+        min-height: 420px;
+    }
 }
 
 /*Десктопные стили*/
@@ -793,6 +796,12 @@ and (max-device-width: 770px) {
             margin: auto;
             background-color: black;
         }
+        #title {
+            font-family: Verdana;
+            position: absolute;
+            left: 10%;
+            margin-top: 0%;
+        }
     }
     @media only screen and (max-width: 1399px) {
         main {
@@ -808,7 +817,7 @@ and (max-device-width: 770px) {
             font-family: Verdana;
             position: absolute;
             left: 10%;
-            margin-top: 7%;
+            margin-top: 4%;
         }
     }
     @media only screen and (max-width: 1080px) {
@@ -839,6 +848,9 @@ and (max-device-width: 770px) {
     }
     .firstPhoto{
         display: none;
+    }
+    .flickity-viewport {
+        min-height: 420px;
     }
     @media only screen and (min-width: 1400px) {
         .gallery {
@@ -1297,7 +1309,7 @@ and (max-device-width: 770px) {
         font-family: Verdana;
         font-size: 10pt;
         padding: 2px;
-        width: 70%;
+        width: 75%;
         height: 20px;
         align-self: center;
     }
