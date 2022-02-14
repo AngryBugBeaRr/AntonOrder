@@ -815,9 +815,13 @@ and (max-device-width: 770px) {
     #twitter {
         margin-left: 20px;
         display: flex;
+        align-self: center;
     }
     #ds {
         display: flex;
+        align-self: center;
+        width: 32.5px;
+        height: 32.5px;
     }
     @media only screen and (min-width: 1400px) {
         main {
@@ -1430,13 +1434,13 @@ and (max-device-width: 770px) {
         width: 100%;
         flex-direction: row;
     }
-    #kisa{
+    #cat{
         margin: 0;
         padding: 0;
         width: 20%;
         position: relative;
     }
-    .kisa{
+    .cat{
         width: 100%;
     }
     #icon{
@@ -1444,6 +1448,7 @@ and (max-device-width: 770px) {
         position: relative;
         width: 100%;
         justify-content: end;
+        align-items: start;
     }
     .menu2 {
         margin-right: 13px;
