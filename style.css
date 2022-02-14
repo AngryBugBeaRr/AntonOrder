@@ -671,22 +671,22 @@ and (max-device-width: 770px) {
     #icon{
         display: flex;
         position: relative;
-        width: 50%;
+        width: 100%;
         margin: 0;
         margin-bottom: 20px;
         margin-top: 20px;
         justify-content: center;
     }
     .icon2{
-        width: 100%;
+        width: 140%;
         height: auto;
         margin-top: 5%;
         margin-bottom: 5%;
 
     }
     #icon a.menu{
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .bottom{
         display: flex;
@@ -708,10 +708,10 @@ and (max-device-width: 770px) {
         flex-direction: row;
         justify-content: start;
         width: 100%;
-        height: 50px;
+        height: 100px;
     }
     #bottomEmail{
-        font-size: 24pt;
+        font-size: 28pt;
         text-align: start;
         width: 100%;
         font-style: italic;
@@ -726,6 +726,7 @@ and (max-device-width: 770px) {
         color: #ffffff;
         height: 30px;
         font-style: italic;
+        font-size: 26pt;
     }
 
     .arrowIcon {
@@ -737,8 +738,8 @@ and (max-device-width: 770px) {
         align-items: center;
     }
     .arrowIcon img {
-        width: 20px;
-        height: 20px;
+        width: 40px;
+        height: 40px;
     }
     .email input {
         background-color: #272526;
@@ -754,22 +755,24 @@ and (max-device-width: 770px) {
         position: relative;
         margin: 0%;
         margin-bottom: 5%;
-        width: 50%;
+        width: 100%;
+        justify-content: center;
         align-self: center;
         font-family: Ebrima;
         line-height: 100%;
-        font-size: 16pt;
+        font-size: 24pt;
     }
     #textBottom2{
         display: flex;
         position: relative;
         margin: 0;
         margin-bottom: 5%;
-        width: 50%;
+        width: 100%;
+        justify-content: center;
         align-self: center;
         font-family: Ebrima;
         line-height: 100%;
-        font-size: 16pt;
+        font-size: 24pt;
     }
     #str4 {
         display: none;
@@ -784,8 +787,8 @@ and (max-device-width: 770px) {
         margin-top: -45%;
     }
     .arrowIcon {
-        height: 50px;
-        width: 50px;
+        height: 100px;
+        width: 150px;
         background-color: #4A4A4A;
         border: none;
         display: flex;
@@ -794,6 +797,12 @@ and (max-device-width: 770px) {
     }
     .flickity-viewport {
         min-height: 420px;
+    }
+    .gif2{
+        width: 80%;
+        height: 80%;
+        margin: auto;
+        position: relative;
     }
 }
 
@@ -859,6 +868,12 @@ and (max-device-width: 770px) {
         justify-content: space-around;
         margin-right: 70px;
         align-items: center;
+    }
+    .gif2{
+        width: 30%;
+        height: 30%;
+        margin: auto;
+        position: relative;
     }
     main .two {
         display: none;
@@ -1222,7 +1237,7 @@ and (max-device-width: 770px) {
             text-align: end;
         }
     }
-    @media only screen and (max-width: 1099px) {
+    @media only screen and (max-width: 1080px) {
         #title {
             font-family: Verdana;
             position: absolute;
@@ -1333,9 +1348,21 @@ and (max-device-width: 770px) {
         width: 20%;
         justify-content: space-around;
     }
-    .photo{
-        margin-left: 6%;
-        margin-right: 6%;
+    @media only screen and (max-width: 1080px) {
+        .photo{
+            width: 160px;
+            height: 160px;
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+    }
+    @media only screen and (min-width: 1081px) {
+        .photo{
+            width: 200px;
+            height: 210px;
+            margin-left: 0%;
+            margin-right: 0%;
+        }
     }
     .name{
         margin-top: 10%;
@@ -1348,7 +1375,7 @@ and (max-device-width: 770px) {
         font-family: Verdana;
         font-size: 10pt;
         padding: 2px;
-        width: 75%;
+        width: 85%;
         height: 20px;
         align-self: center;
     }
@@ -1386,7 +1413,7 @@ and (max-device-width: 770px) {
         font-size: 18pt;
         font-style: italic;
         font-family: Verdana;
-        margin-bottom: 1%;
+        margin-bottom: 3%;
     }
     .end p {
         white-space: normal;
@@ -1415,8 +1442,14 @@ and (max-device-width: 770px) {
     #icon{
         display: flex;
         position: relative;
-        margin: 20px;
-        justify-content: center;
+        width: 100%;
+        justify-content: end;
+    }
+    .menu2 {
+        margin-right: 13px;
+        width: 48px;
+        display: flex;
+        justify-content: end;
     }
     .bottom{
         display: flex;
@@ -1424,14 +1457,15 @@ and (max-device-width: 770px) {
         width: 40%;
         position: relative;
         justify-content: center;
-        align-items: center;
+        align-items: start;
+        margin-left: 10px;
     }
     .bottom p {
         font-family: Ebrima;
         font-style: italic;
         font-size: 18px;
-        margin-bottom: 10px;
-        margin-right: 160px;
+        margin-bottom: 0px;
+        margin-right: 120px;
     }
     .email {
         display: flex;
@@ -1452,7 +1486,7 @@ and (max-device-width: 770px) {
     }
     .email input {
         background-color: #272526;
-        width: 250px;
+        width: 200px;
         border: none;
         display: flex;
         padding-left: 10px;
@@ -1464,24 +1498,26 @@ and (max-device-width: 770px) {
     #textBottom1{
         display: flex;
         position: relative;
-        margin: 20px;
-        width: 70%;
+        margin-right: 20px;
+        width: 95%;
         align-self: center;
+        justify-content: end;
         font-family: Ebrima;
         font-weight: 400;
         line-height: 20px;
-        font-size: 20px;
+        font-size: 14px;
     }
     #textBottom2{
         display: flex;
         position: relative;
-        margin: 20px;
-        width: 70%;
+        margin-right: 20px;
+        width: 95%;
         align-self: center;
+        justify-content: end;
         font-family: Ebrima;
         font-weight: 400;
         line-height: 20px;
-        font-size: 20px;
+        font-size: 14px;
     }
     .line2 {
         background-color: #FFFFFF;
