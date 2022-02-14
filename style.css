@@ -601,8 +601,8 @@ and (max-device-width: 770px) {
         width: 40%;
     }
     .photo{
-        width: 350px;
-        height: 360px;
+        width: 170px;
+        height: 180px;
         margin-left: 0%;
         margin-right: 0%;
     }
