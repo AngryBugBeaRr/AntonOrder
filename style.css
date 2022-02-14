@@ -601,8 +601,10 @@ and (max-device-width: 770px) {
         width: 40%;
     }
     .photo{
-        margin-left: 6%;
-        margin-right: 6%;
+        width: 350px;
+        height: 360px;
+        margin-left: 0%;
+        margin-right: 0%;
     }
     .name{
         margin-top: 4%;
