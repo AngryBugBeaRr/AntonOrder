@@ -825,8 +825,8 @@ and (max-device-width: 770px) {
     #ds {
         display: flex;
         align-self: center;
-        width: 32.5px;
-        height: 32.5px;
+        width: 26px;
+        height: 26px;
     }
     @media only screen and (min-width: 1400px) {
         main {
@@ -1467,7 +1467,7 @@ and (max-device-width: 770px) {
         justify-content: end;
     }
     #tw2 {
-        margin-top: 2px;
+        margin-top: -2px;
     }
     .menu2 img {
         width: 39px;
