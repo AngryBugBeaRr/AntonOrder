@@ -501,7 +501,7 @@ and (max-device-width: 770px) {
         align-items: end;
         justify-content: end;
         width: 50%;
-        left: 50%;
+        left: 45%;
         top: 10%;
     }
     #first p {
@@ -535,7 +535,7 @@ and (max-device-width: 770px) {
         align-items: end;
         justify-content: end;
         width: 50%;
-        left: 50%;
+        left: 45%;
         top: 58%;
     }
     #third p {
@@ -1135,7 +1135,7 @@ and (max-device-width: 770px) {
         }
         #third p {
             margin-top: -5%;
-            width: 80%;
+            width: 100%;
             font-family: Ebrima;
             font-size: 15px;
             text-align: end;
@@ -1152,7 +1152,7 @@ and (max-device-width: 770px) {
         }
         #fourth p {
             margin-top: -5%;
-            width: 80%;
+            width: 100%;
             font-family: Ebrima;
             font-size: 15px;
             text-align: end;
@@ -1220,7 +1220,7 @@ and (max-device-width: 770px) {
         }
         #third p {
             margin-top: -5%;
-            width: 80%;
+            width: 100%;
             font-family: Ebrima;
             font-size: 16px;
             text-align: end;
@@ -1240,7 +1240,7 @@ and (max-device-width: 770px) {
         }
         #fourth p {
             margin-top: -5%;
-            width: 80%;
+            width: 100%;
             font-family: Ebrima;
             font-size: 16px;
             text-align: end;
@@ -1299,7 +1299,7 @@ and (max-device-width: 770px) {
         }
         #third p {
             margin-top: -5%;
-            width: 80%;
+            width: 100%;
             font-family: Ebrima;
             font-size: 14px;
             text-align: end;
@@ -1316,7 +1316,7 @@ and (max-device-width: 770px) {
         }
         #fourth p {
             margin-top: -5%;
-            width: 80%;
+            width: 100%;
             font-family: Ebrima;
             font-size: 14px;
             text-align: end;
